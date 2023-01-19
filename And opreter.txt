@@ -1,0 +1,14 @@
+package loops;
+
+public class Andoperter {
+
+	public static void main(String[] args) {
+		int a=50;
+		int b=45;
+		int c=55;
+		System.out.println(a<b&&a<c);
+		System.out.println(a<b&a<c);
+
+	}
+
+}

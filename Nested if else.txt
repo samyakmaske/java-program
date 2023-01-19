@@ -1,0 +1,25 @@
+package loops;
+
+public class Nestedifelse {
+
+	public static void main(String[] args) {
+		String address = "Nagpur,India";
+		if(address.endsWith ("India")) {
+		if(address.contains ("Mumbai")) {
+		System.out.println("Your city is Mumbai");
+		}else if (address.contains("Pune")) {
+		}else {
+			System.out.println(address.split(",")[0]);
+		}
+		}else {
+			System.out.println("you are not liveing in india");
+			
+		
+		}
+		}
+		
+		
+
+	}
+
+

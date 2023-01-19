@@ -1,0 +1,23 @@
+package loops;
+
+public class ifelseif {
+
+	public static void main(String[] args) {
+		String city = "Nagpur";
+		if (city=="Mumbai") {
+		System.out.println("city is mumbai");
+	}else if (city=="Dheli") {
+		System.out.println("city is dheli");
+	}else if (city=="Noida") {
+	System.out.println("city is noida");
+    } else {
+	System.out.println(city);
+	
+		
+		
+    }
+		
+
+	}
+
+}
