@@ -1,0 +1,19 @@
+package abtraction;
+abstract class Hores{
+	abstract void run();
+	}
+   class Hero extends Hores{
+	   void run() {System.out.println("Hero bike is runiging safely");}
+	
+	   
+   }
+public class demo1 {
+
+	public static void main(String[] args) {
+		Hores obj = new Hero();
+		obj.run();
+		
+
+	}
+
+}
