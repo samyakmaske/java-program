@@ -1,0 +1,15 @@
+package encapsulation;
+
+public class Accountmain {
+
+	public static void main(String[] args) {
+		Account acc=new Account();  
+		acc.setAcc_no(901195164);  
+		acc.setName("Sami maske");  
+		acc.setEmail("samimaske@gmail.com.com");  
+		acc.setAmount(700000f);  
+		System.out.println(acc.getAcc_no()+" "+acc.getName()+" "+acc.getEmail()+" "+acc.getAmount());
+
+	}
+
+}
